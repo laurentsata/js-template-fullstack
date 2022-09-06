@@ -47,3 +47,13 @@ Vérifications:
 - s'assurer que les principaux outils utilisés lors de la formation sont compatibles avec ce template
 - deploiements ? Compatible avec Netlify/Vercel/Heroku ?
 - fonctionnement avec yarn/pnpm
+
+dans vscode :
+Paramètres settings.json eslint prettier :
+"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
